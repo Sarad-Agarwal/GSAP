@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 40vh;
+    width: 50vw;
+    /* background-color: #fff; */
+    border: 10px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+h1 span {
+    display: inline-block;
+}
